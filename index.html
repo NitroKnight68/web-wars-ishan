@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timeline of the Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="image">
+      <img class="" src="header_image.svg" />
+    </div>
+    <div class="heading">
+      Timeline of the Web
+    </div>
+    <div class="container">
+  <div class="timeline">
+    <div class="desc-div">I M A BARBIE GIRL</div>
+    <ul>
+      <li onclick="location.href='https://www.w3.org/People/Berners-Lee/'">
+        <div class="timeline-content">
+
+          <h1>Tim Berner’s Lee Develops The World Wide Web</h1>
+        <p class="date-p" >1990</p>
+        </div>
+        
+      </li>
+      <li onclick="location.href='https://thehistoryoftheweb.com/complete-history/1995-was-the-most-important-year-for-the-web/'">
+        <div class="timeline-content">
+
+          <h1>The Consumer Web Begins To Take Shape</h1>
+          <p class="date-p" >1995</p>
+        </div>
+      </>
+      <li onclick="location.href='https://www.wired.com/1997/06/china-3/ '">
+        <div class="timeline-content">
+
+          <h1>The Chinese Government Tries To Censor The Web</h1>
+          <p class="date-p" >1997</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://opensource.com/article/18/2/pivotal-moments-history-open-source'">
+        <div class="timeline-content">
+
+          <h1>The Growth Of Open-Source Software</h1>
+          <p class="date-p" >1998</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://ideas.ted.com/an-eye-opening-look-at-the-dot-com-bubble-of-2000-and-how-it-shapes-our-lives-today/'">
+        <div class="timeline-content">
+
+          <h1>The Burst Of The Dot-Com Bubble</h1>
+        <p class="date-p" >2000</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://www.thoughtco.com/who-invented-facebook-1991791'">
+        <div class="timeline-content">
+
+          <h1>The Birth Of Facebook</h1>
+          <p class="date-p" >2004</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://interestingengineering.com/youtubes-history-and-its-impact-on-the-internet'">
+        <div class="timeline-content">
+
+          <h1>The Arrival Of Youtube And Twitter</h1>
+          <p class="date-p" >2006</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/'">
+        <div class="timeline-content">
+
+          <h1>Steve Jobs Introduces The World To The iPhone</h1>
+          <p class="date-p" >2007</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://money.usnews.com/investing/articles/the-history-of-bitcoin'">
+        <div class="timeline-content">
+
+          <h1>Satoshi Nakomoto Launches The Bitcoin Network</h1>
+        <p class="date-p" >2009</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance'">
+        <div class="timeline-content">
+
+          <h1>Edward Snowden Shows The NSA Monitoring US Citizens Using The Internet</h1>
+          <p class="date-p" >2013</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://techcrunch.com/2015/08/01/vapor-no-more-ethereum-has-launched/'">
+        <div class="timeline-content">
+
+          <h1>The Launch Of The Ethereum Virtual Machine</h1>
+          <p class="date-p" >2015</p>
+        </div>
+      </li>
+      <li onclick="location.href='https://www.forbes.com/sites/bernardmarr/2022/01/24/what-is-web3-all-about-an-easy-explanation-with-examples/?sh=4b0f3b462255'">
+        <div class="timeline-content">
+
+          <h1> The Viability Of Web 3.0 Has Never Been Greater</h1>
+          <p class="date-p" >TODAY</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+<script>
+        function displayDesc() {
+        document.querySelector(".desc-div").style.visibility = "visible";
+        document.querySelector(".timeline").style.opacity = 0.3;
+        document.querySelector(".desc-div").style.opacity = 1;
+        document
+          .querySelector("body")
+          .addEventListener("click", function () {
+            document.querySelector(".desc-div").style.visibility = "hidden";
+            document.querySelector(".timeline").style.opacity = 1;
+          });
+      }
+</script>
+
+  </body>
+</html>
